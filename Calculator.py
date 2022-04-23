@@ -38,5 +38,6 @@ while True:
             print(num1, '*', num2, '=', multiply(num1,num2))
         if choice == '4':
             print(num1, '/', num2, '=', divide(num1,num2))
-    else: break
+    else: print("Goodbye...") 
+    break
             
