@@ -1,11 +1,11 @@
- import unittest
-from Calculator import Calculator
-#Test cases to test Calulator methods
+import unittest 
+from calculator import calculator
+#Test cases to test Calculator methods
 #You always create  a child class derived from unittest.TestCase
 class TestCalculator(unittest.TestCase):
   #setUp method is overridden from the parent class TestCase
   def setUp(self):
-    self.calculator = Calculator()
+    self.calculator = calculator()
   #Each test method starts with the keyword test_
   def test_add(self):
     self.assertEqual(self.calculator.add(4,7), 11)

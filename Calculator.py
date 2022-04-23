@@ -1,7 +1,5 @@
 #Calculator
 
-#TODO writing unit tests to test all functions
-
 def add (x, y):
     return x + y
 def subtract (x, y):
@@ -11,17 +9,20 @@ def multiply (x, y):
 def divide (x, y):
     if y == 0:
         print("Can't divide by zero!")
+        return "undefined"
     else:
         return x / y
-    
-print("This is a calculator")
-print("What would you like to do")
-print("1 - ADD")
-print("2 - SUBTRACT")
-print("3 - MULTIPLY")
-print("4 - DIVIDE")
+
+def printMenu():   
+    print("This is a calculator")
+    print("What would you like to do")
+    print("1 - ADD")
+    print("2 - SUBTRACT")
+    print("3 - MULTIPLY")
+    print("4 - DIVIDE")
 
 while True:
+    printMenu()
     choice = input("Please enter a number corresponding to an operation: ")
     
     if choice in ('1', '2', '3', '4'):
