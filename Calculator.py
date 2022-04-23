@@ -1,5 +1,5 @@
-#Calculator
-
+#Calculator 
+__all__ = ['add','subtract','divide', 'multiply']
 def add (x, y):
     return x + y
 def subtract (x, y):
@@ -20,6 +20,7 @@ def printMenu():
     print("2 - SUBTRACT")
     print("3 - MULTIPLY")
     print("4 - DIVIDE")
+    print("5 - EXIT")
 
 while True:
     printMenu()
@@ -37,3 +38,5 @@ while True:
             print(num1, '*', num2, '=', multiply(num1,num2))
         if choice == '4':
             print(num1, '/', num2, '=', divide(num1,num2))
+    else: break
+            
