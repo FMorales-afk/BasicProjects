@@ -1,4 +1,4 @@
-import calculator as calculator
+import calculator
 def printMenu():   
     print("This is a calculator")
     print("What would you like to do")
