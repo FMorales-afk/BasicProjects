@@ -1,5 +1,5 @@
 import unittest 
-import calculator
+import src.calculator as calculator
 #Test cases to test self methods
 #You always create  a child class derived from unittest.TestCase
 class TestCalculator(unittest.TestCase):
