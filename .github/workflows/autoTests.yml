@@ -21,4 +21,4 @@ jobs:
           python -m pip install coverage
       - name: Test with python
         run: |
-          python -m unittest coverage calculator.py test_calculator.py test_integrations.py
+          python -m unittest coverage report calculator.py test_calculator.py test_integrations.py
