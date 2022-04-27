@@ -24,6 +24,8 @@ while True:
             print(num1, '*', num2, '=', calculator.multiply(num1,num2))
         if choice == '4':
             print(num1, '/', num2, '=', calculator.divide(num1,num2))
-    else: print("Goodbye...") 
-    break
+    else: 
+        print("Goodbye...") 
+        break
+    
     
